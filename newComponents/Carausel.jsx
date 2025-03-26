@@ -7,7 +7,7 @@ import carauselImage from "../data/carauselImage.json";
 
 const Carousel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [autoPlay, setAutoplay] = useState(true);
+  const [autoPlay, setAutoplay] = useState(false);
 
   const imageListLength = carauselImage.pictures.length;
 
