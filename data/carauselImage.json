@@ -1,0 +1,21 @@
+{
+    "pictures" : [
+        {
+            "id" : 1,
+            "src" : "/NGOimages/img1.jpg"
+        },
+        {
+            "id" : 2,
+            "src" : "/NGOimages/img2.jpg"
+        },
+        {
+            "id" : 3,
+            "src" : "/NGOimages/img3.jpg"
+        },
+        {
+            "id" : 4,
+            "src" : "/NGOimages/img4.jpg"
+        }
+        
+    ]
+}
