@@ -1,0 +1,47 @@
+{
+    "mainMenu": [
+      {
+        "title": "About Us",
+        "dropdownItems": [
+          { "label": "About us", "href": "/about/aboutUs" },
+          { "label": "People Behing Smile", "href": "/about/people" },
+          { "label": "Impact", "href": "/about/team" },
+          { "label": "Reach and presence", "href": "/about/vision" }
+         
+        ]
+      },
+      {
+        "title": "Our Work",
+        "dropdownItems": [
+          { "label": "Education", "href": "/programs/education" },
+          { "label": "Healthcare", "href": "/programs/healthcare" },
+          { "label": "Women Empowerment", "href": "/programs/women-empowerment" }
+        ]
+      },
+      {
+        "title": "Campaigns",
+        "dropdownItems": [
+          { "label": "Campaign 1", "href": "/donate" },
+          { "label": "Campaign 2", "href": "/volunteer" },
+          { "label": "Campaign 3", "href": "/corporate-partnership" },
+          { "label": "See more Campaigns", "href": "/corporate-partnership" }
+        ]
+      },
+      {
+        "title": "Get Involved",
+        "dropdownItems": [
+          { "label": "School Partnerships", "href": "/programs/education" },
+          { "label": "Volunteer and Internships ", "href": "/programs/healthcare" },
+          { "label": "Work with Us", "href": "/programs/women-empowerment" }
+        ]
+      },
+      {
+        "title": "Resource Center",
+        "dropdownItems": [
+          { "label": "News Letter", "href": "/programs/education" },
+          { "label": "Annual Report", "href": "/programs/healthcare" },
+          { "label": "Stories of change", "href": "/programs/women-empowerment" }
+        ]
+      }
+    ]
+  }
