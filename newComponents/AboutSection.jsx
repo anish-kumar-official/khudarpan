@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <div className="flex justify-center items-center w-full h-[300px] p-4">
+    <div className="flex justify-center items-center w-full h-[400px] p-4">
       <div className="w-[900px] h-[200px]">
         <p className="text-lg text-center">
           Khudarpan is a passionate non-profitable organization dedicated to
