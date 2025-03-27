@@ -1,6 +1,12 @@
 {
     "mainMenu": [
       {
+        "title" : "Home",
+        "dropdownItems" :[
+          {"label" : "Home", "href" : "/"}
+        ]
+      },
+      {
         "title": "About Us",
         "dropdownItems": [
           { "label": "About us", "href": "/about/about-us" },
@@ -14,7 +20,6 @@
         "title": "Our Work",
         "dropdownItems": [
           { "label": "Education", "href": "/work/education" },
-          { "label": "Healthcare", "href": "/work/healthcare" },
           { "label": "Women Empowerment", "href": "/work/women-empowerment" }
         ]
       },

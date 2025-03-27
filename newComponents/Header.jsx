@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 import HeaderDropdown from "../newComponents/HeaderDropdown";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -21,13 +22,14 @@ const Header = () => {
         lg:px-8
       "
     >
-      <div className="upperHeader flex justify-end items-center mb-2">
-        <Button className="shadow-md bg-green-500 text-white cursor-pointer">
-          Support a Cause
-        </Button>
+      <div className="upperHeader flex items-center mb-2">
+        <div className="w-full flex justify-center items-center">
+          <div className="font-bold text-[#007c7c]">We live F</div>
+          <div className="font-bold text-[#ffa910]">or Others !</div>
+        </div>
       </div>
-      <div className="lowerHeader flex justify-between items-center space-x-8  rounded-3xl">
-        <div className="logo flex-shrink-0">
+      <div className="lowerHeader flex justify-between items-center space-x-8">
+        <Link href="/">
           <Image
             src="/Logo/mainLogo.jpeg"
             width={150}
@@ -35,10 +37,13 @@ const Header = () => {
             alt="Khudarpan Logo Loading..."
             className="object-contain"
           />
-        </div>
-        <div className="flex-grow flex justify-center items-baseline bg-[#007C7C] rounded-2xl">
+        </Link>
+        <div className="flex-grow flex justify-center">
           <HeaderDropdown />
         </div>
+        <Button className="shadow-md bg-[#007c7c] text-white cursor-pointer hover:bg-[#ffa910] hover:text-black">
+          Support a Cause
+        </Button>
       </div>
     </div>
   );

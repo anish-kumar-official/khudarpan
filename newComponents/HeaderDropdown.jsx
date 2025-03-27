@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import navigationData from "../data/navigationData.json";
+import { ChevronDown } from "lucide-react";
 
 const HeaderDropdown = () => {
   const [openMenuIndex, setOpenMenuIndex] = useState(null);
@@ -23,13 +24,17 @@ const HeaderDropdown = () => {
             className="
               hover:text-[#FFA910] 
               cursor-pointer 
-              text-white
-              font-medium 
+              text-[#007c7c]
+              font-bold
               relative
               py-2
+              flex
             "
           >
             {menuItem.title}
+            <div className="flex p-[2.75px]">
+              <ChevronDown />
+            </div>
             <span
               className="
                 absolute 
@@ -66,7 +71,7 @@ const HeaderDropdown = () => {
                 <div
                   key={dropdownIndex}
                   className="
-                    hover:bg-gray-100 
+                    hover:bg-gray-300 
                     cursor-pointer 
                     p-2
                     first:rounded-t-md 
