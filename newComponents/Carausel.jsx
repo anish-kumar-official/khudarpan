@@ -45,15 +45,23 @@ const Carousel = () => {
       <div className="buttonSection absolute inset-0 flex justify-between items-center z-10 p-4">
         <Button
           onClick={handlePrevImage}
-          className="cursor-pointer hover:bg-gray-500"
+          className="cursor-pointer hover:bg-gray-200/10 h-full bg-white/0"
         >
-          <ChevronLeft />
+          <ChevronLeft
+            className="text-black text-4xl font-bold"
+            size={32}
+            strokeWidth={3}
+          />
         </Button>
         <Button
-          onClick={handleNextImage}
-          className="cursor-pointer hover:bg-gray-500"
+          onClick={handlePrevImage}
+          className="cursor-pointer hover:bg-gray-200/10 h-full bg-white/0"
         >
-          <ChevronRight />
+          <ChevronRight
+            className="text-black text-4xl font-bold"
+            size={32}
+            strokeWidth={3}
+          />
         </Button>
         {/* Add a button to toggle autoplay
         <Button

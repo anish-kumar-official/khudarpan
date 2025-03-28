@@ -1,0 +1,49 @@
+{
+    "footerMenu": [
+      {
+        "title": "About Us",
+        "dropdownItems": [
+          { "label": "About Khudarpan", "href": "/about/about-us" },
+          { "label": "Our People", "href": "/about/people" },
+          { "label": "Impact", "href": "/about/impact" },
+          { "label": "Reach and presence", "href": "/about/reach" }
+         
+        ]
+      },
+      {
+        "title": "Our Work",
+        "dropdownItems": [
+          { "label": "Education", "href": "/work/education" },
+          { "label": "Women Empowerment", "href": "/work/women-empowerment" }
+        ]
+      },
+      {
+        "title": "Campaigns",
+        "dropdownItems": [
+          { "label": "Jigyasa", "href": "/campaigns/jigyasa" },
+          { "label": "Paramarsh", "href": "/campaigns/paramarsh" },
+          { "label": "Arogya", "href": "/campaigns/arogya" },
+          { "label": "Aurat", "href": "//campaigns/aurat" },
+          { "label": "Aahar", "href": "//campaigns/aahar" },
+          { "label": "Vastra", "href": "//campaigns/Vastra" },
+          { "label": "Khushiyan", "href": "//campaigns/Khushiyan" }
+        ]
+      },
+      {
+        "title": "Get Involved",
+        "dropdownItems": [
+          { "label": "School Partnerships", "href": "/programs/education" },
+          { "label": "Volunteer and Internships ", "href": "/programs/healthcare" },
+          { "label": "Work with Us", "href": "/programs/women-empowerment" }
+        ]
+      },
+      {
+        "title": "Resource Center",
+        "dropdownItems": [
+          { "label": "News Letter", "href": "/programs/education" },
+          { "label": "Annual Report", "href": "/programs/healthcare" },
+          { "label": "Stories of change", "href": "/programs/women-empowerment" }
+        ]
+      }
+    ]
+  }
