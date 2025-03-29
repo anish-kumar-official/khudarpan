@@ -3,13 +3,13 @@ import footerData from "../data/footerData.json";
 import Link from "next/link";
 import {
   SlSocialFacebook,
-  SlSocialGoogle,
   SlSocialInstagram,
   SlSocialLinkedin,
-  SlSocialTwitter,
   SlSocialYoutube,
 } from "react-icons/sl";
+import { BsTwitterX } from "react-icons/bs";
 import { Mail, Phone } from "lucide-react";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const FooterSection = () => {
   const footerSocial = [
@@ -30,7 +30,7 @@ const FooterSection = () => {
       link: "https://www.facebook.com/share/18R9MHLppC/",
     },
     {
-      icon: <SlSocialTwitter />,
+      icon: <BsTwitterX />,
       link: "https://x.com/khudarpan?t=42ZE27cft_2Z_QxzkS3jbg&s=09",
     },
   ];
@@ -77,8 +77,15 @@ const FooterSection = () => {
                 <span>+91-7250861237, 70615 42809</span>
               </div>
               <div className="flex items-center justify-center md:justify-start gap-2">
+                <IoLogoWhatsapp size={20} className="text-green-500" />
+                <span>+91-7070605395</span>
+              </div>
+              <div className="flex items-center justify-center md:justify-start gap-2">
                 <Mail size={20} className="text-[#ffa910]" />
-                <span>Khudarpan@gmail.com</span>
+                <div className="flex flex-col">
+                  <span>info@khudarpan.org</span>
+                  <span>support@khudarpan.org</span>
+                </div>
               </div>
             </div>
           </div>
