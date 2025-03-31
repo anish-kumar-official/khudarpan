@@ -37,7 +37,8 @@
         "dropdownItems": [
           { "label": "School Partnerships", "href": "/programs/education" },
           { "label": "Volunteer and Internships ", "href": "/programs/healthcare" },
-          { "label": "Work with Us", "href": "/programs/women-empowerment" }
+          { "label": "Work with Us", "href": "/programs/women-empowerment" },
+          { "label": "Collaboration", "href": "/programs/women-empowerment" }
         ]
       },
       {
