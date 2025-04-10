@@ -1,7 +1,12 @@
 import React from "react";
+import AboutUs from "@/newComponents/AboutUs";
 
-const AboutUs = () => {
-  return <div>About Us Page</div>;
+const AboutUsPage = () => {
+  return (
+    <div className="container mx-auto py-10">
+      <AboutUs />
+    </div>
+  );
 };
 
-export default AboutUs;
+export default AboutUsPage;
